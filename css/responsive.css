@@ -1,0 +1,155 @@
+@media (max-width:480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .welcome, .learn, .level, .about, .popular, .recent, .popular, .youtube, .recommend, footer {
+    height: auto;
+  }
+  .welcome, .recommend {
+    margin-bottom: 0;
+  }
+  .header-inner,
+  .learn-inner,
+  .recent-inner,
+  .popular-inner,
+  .youtube-inner,
+  .recommend-inner,
+  .footer-inner {
+    width: 100%;
+  }
+  header {
+    height: 70px;
+    position: relative;
+  }
+  nav {
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    top: 0px;
+    left: -270px;
+    z-index: 10000;
+  }
+  nav.active {
+    left: 0;
+  }
+  nav > a {
+    display: block;
+  }
+  nav > a:first-child {
+    padding-top: 50px;
+  }
+  .trigger {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 28px;
+    z-index: 10000;
+  }
+  .trigger::before {
+    content: '\e91c';
+    font-family: xeicon;
+  }
+  .trigger.active::before {
+    content: '\e9af';
+  }
+  .main-img {
+    width: 100%;
+    height: 240px;
+  }
+  .main-img > img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+  }
+  .learn-contents {
+    display: block;
+  }
+  .learn-con {
+    display: block;
+  }
+  .level-inner {
+    width: 100%;
+  }
+  .level-con {
+    margin-right: 0px;
+    width: 120px;
+    height: 90px;
+    padding: 0px;
+    border-radius: 0;
+  }
+  .level-con p {
+    font-size: 1vw;
+  }
+  .recent-contents {
+    display: block;
+  }
+  .recent-con {
+    margin: 10px;
+    margin-top: 20px;
+  }
+  .popular-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popular-contents {
+    display: block;
+  }
+  .popular-con {
+    margin-top: 140px;
+    margin-right: 0;
+  }
+  .popular-con:first-child {
+    margin-top: 0px;
+  }
+  .youtube-contents {
+    display: block;
+  }
+  .youtube-left > iframe,
+  .youtube-right > iframe {
+    width: 100%;
+  }
+  .youtube-right {
+    margin-left: 0;
+  }
+  .recommend-contents {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .recommend-list {
+    padding: 20px 0;
+    display: inline-block;
+    margin-left: 0;
+    text-align: center;
+  }
+  .recommend-list > div.active {
+    display: block;
+  }
+  .recommend-right {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .recommend-con {
+    width: 100%;
+  }
+  .footer-inner {
+    display: block;
+  }
+  .footer-desc {
+    margin-left: 0px;
+    text-align: left;
+  }
+  .footer-desc h3 {
+    text-align: center;
+  }
+  .sns {
+    margin-left: 0;
+  }
+  .goto.active {
+    display: none;
+  }
+}

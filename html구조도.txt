@@ -1,0 +1,74 @@
+header
+  .header-inner
+    .header-top
+      .logo > img
+    .header-bottom
+      .gnb > (a * 5)
+
+section.welcome
+  .main-img > img
+
+section.learn
+  .learn-inner
+    .common-top
+      .title
+      .title-desc
+    .learn-contents
+      .learn-con
+        .learn-img > img
+        .learn-desc > p, span
+
+section.level
+  .level-inner
+    .common-top
+      .title
+      .title-desc
+    .level-icons
+      .level-con > i, p
+
+section.recent
+  .recent-inner
+    .common-top
+      .title
+      .title-desc
+    .recent-contents
+      .recent-con > img
+        .recent-desc > h2, p
+
+section.popular
+  .popular-inner
+    .common-top
+      .title
+      .title-desc
+    .popular-contents
+      .popular-con
+        .popular-top > img 
+        .popular-bottom > p
+
+section.youtube
+  .youtube-inner
+    .common-top
+      .title
+      .title-desc
+    .youtube-contents
+      .youtube-left > iframe
+      .youtube-right
+        .youtube-load
+
+section.recommend
+  .recommend-inner
+    .common-top
+      .title
+      .title-desc
+    .recommend-contents
+      .recommend-list > (a*9)
+      .recommend-con > img
+
+footer
+  .footer-inner
+    .footer-logo > img
+    .footer-desc
+      .explore > (a*7)
+      p
+      .sns
+      a

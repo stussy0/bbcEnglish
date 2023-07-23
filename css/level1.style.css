@@ -1,0 +1,170 @@
+header {
+  position: inherit;
+}
+
+header.active {
+  box-shadow: none;
+}
+
+.level1::before {
+  display: none;
+}
+
+.level1 {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.lv1-inner {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+.lv1-top {
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.lv1-top p {
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.lv1-title {
+  margin: 0 auto;
+  width: 180px;
+  height: 45px;
+  background-color: #f4dd64;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.lv1-title h2 {
+  font-size: 24px;
+  line-height: 48px;
+  font-family: "Black Han Sans", sans-serif;
+  color: #fff;
+}
+
+.ttl-in {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 300px;
+}
+
+.ttl1 {
+  font-weight: 600;
+}
+
+.ttl2 {
+  color: #878787;
+}
+
+.ttl2:hover {
+  color: #000;
+  font-weight: 600;
+}
+
+#essential {
+  width: 100%;
+  height: auto;
+  margin-bottom: 200px;
+}
+
+#how-do-i {
+  width: 100%;
+  height: auto;
+}
+
+.essential-ttl {
+  background-color: #fff9da;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding: 33.71px;
+  font-size: 20px;
+}
+
+.how-ttl {
+  background-color: #fff9da;
+  text-align: center;
+  padding: 33.71px;
+  font-size: 20px;
+}
+
+.essential-con,
+.how-con {
+  width: 100%;
+  height: auto;
+}
+
+.contents {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.con-in {
+  margin-top: 30px;
+  width: 377px;
+  height: 410px;
+}
+
+.con-in h3 {
+  padding-top: 10px;
+}
+
+.img-container {
+  position: relative;
+  width: 377px;
+  height: 320px;
+}
+
+.con-in img {
+  cursor: pointer;
+}
+
+.con-in img:hover {
+  filter: brightness(0.5);
+}
+
+.con-in span {
+  display: none;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-weight: 400;
+}
+
+/* ======= Section: footer ======= */
+.goto {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #2e63cd;
+  display: none;
+}
+.goto::after {
+  content: "\e915";
+  color: #fff;
+  font-family: xeicon;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.goto.active {
+  display: block;
+}

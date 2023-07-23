@@ -1,0 +1,192 @@
+header {
+  position: inherit;
+}
+
+header.active {
+  box-shadow: none;
+}
+
+.level_3 {
+  width: 100%;
+}
+
+.level_3_inner {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+.level_3_top {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.level_3_h {
+  margin: 0 auto;
+  width: 180px;
+  height: 45px;
+  background-color: #2e63cd;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.level_3_h h1 {
+  font-size: 24px;
+  line-height: 48px;
+  font-family: "Black Han Sans", sans-serif;
+  color: #fff;
+}
+
+.level_3_title {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 180px;
+}
+
+.ttl1 {
+  font-weight: 600;
+}
+
+.ttl2 {
+  color: #878787;
+}
+
+.ttl2:hover {
+  color: #000;
+  font-weight: 600;
+}
+
+.level_3_top p {
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+/* ######### matters ########## */
+
+#matters {
+  width: 100%;
+}
+
+.matters_h {
+  width: 1300px;
+  height: 100px;
+  background-color: rgb(46, 99, 205, 20%);
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+.matters_h p {
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.matters_con {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* ###### together ###### */
+
+#together {
+  margin-top: 300px;
+  width: 100%;
+}
+
+.together_h {
+  width: 1300px;
+  height: 100px;
+  background-color: rgb(46, 99, 205, 20%);
+  text-align: center;
+}
+
+.together_h p {
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.together_con {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.together ul {
+  top: 66%;
+}
+
+/* ####### 공통session ####### */
+
+.session {
+  margin-top: 70px;
+  width: 600px;
+  height: 520px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.session:hover img {
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+}
+
+.session img {
+  width: 600px;
+}
+
+.session ul {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+}
+
+.session li {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.session li:first-child {
+  font-size: 28px;
+}
+
+.session li:last-child {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+/* ###### goto ##### */
+
+.goto {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #2e63cd;
+  display: none;
+}
+
+.goto::after {
+  content: "\e915";
+  color: #fff;
+  font-family: xeicon;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.goto.active {
+  display: block;
+}
